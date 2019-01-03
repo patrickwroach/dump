@@ -1,0 +1,117 @@
+# [Character Name] – [Player Name]
+
+##Priority
+
+Metatype | Attributes | Mag/Res | Skills | Resources
+--------|----------|-------|------|---------
+C | D | E | B | A
+
+##Personal Details
+
+**Name/Alias:** [Insert name]
+
+**Metatype:** elf
+
+Street Cred | Notoriety | Public Awareness
+-----------|---------|----------------
+0 | 0 | 0
+
+Karma | Total Karma
+-----------|---------
+7 | 7
+
+##Attributes
+
+Bod | Agi | Rea | Str | Wil | Log | Int | Cha | Edg | Mag | Ess
+---|---|---|---|---|---|---|---|---|---|---
+3 | 2 | 6 | 1 | 1 | 4 | 3 | 3 | 4 | – | 6
+
+###Limits
+
+Physical | Mental | Social
+--------|------|------
+4 | 4 | 5
+
+##Qualities
+
+Name | Category | Ref
+----|------|---
+Grease Monkey | Positive | R5 p33
+Juryrigger | Positive | SR5 p75
+Subtle Pilot | Positive | R5 p33
+Dealer Connection | Positive | R5 p33
+Allergy (Uncommon, Mild) | Negative | SR5 p78
+Distinctive Style | Negative | SR5 p80
+
+
+##Magic/Resonance
+
+**Type:** mundane
+
+###Spells/Powers
+
+			
+
+##Skills
+
+###Active
+
+Name | Rating | Attribute | Spec | DP
+----|------|---------|----|--
+Pilot Aircraft | 4 | 6 | Drone | 10 (12)
+Con | 6 | 3 | – | 9 
+Computer | 1 | 4 | – | 5 
+Hardware | 1 | 4 | – | 5 
+Software | 1 | 4 | – | 5 
+Aeronautics Mechanics | 2 | 4 | – | 6 
+Automotive Mechanic | 2 | 4 | – | 6 
+Industrial Mechanics | 2 | 4 | – | 6 
+Nautical Mechanics | 2 | 4 | – | 6 
+Cybercombat | 2 | 4 | – | 6 
+Electronic Warfare | 2 | 4 | – | 6 
+Hacking | 2 | 4 | – | 6 
+Pilot Ground Craft | 4 | 6 | Drone | 10 (12)
+Pistols | 4 | 2 | – | 6 
+Pilot Walker | 4 | 6 | Drone | 10 (12)
+Demolitions | 4 | 4 | – | 8 
+
+
+##Street Gear
+
+### weapons
+
+Name | Acc | Dam | AP | Reach/RC | Mods | Ref
+----|------|-----|----|----------|------|--
+Ares Predator V | 5 | 8P | -1 | 0 | N/A | SR5 p426
+
+### armors
+
+Name | Armor | Capacity | Mods | Ref
+----|--------|----------|------|--
+Chameleon Suit | 9 | undefined/9 | N/A | SR5 p437
+
+### Rigger Command Consoles
+
+Name | Rating | Ref
+-----|--------|--
+Triox UberMensch | N/A | SR5 p266
+
+### Drones
+
+Name | Handling | Accel | Body | Armor | Pilot | Sensor | Mods | Ref
+-----|----------|-------|------|-------|-------|--------|-----|--
+MCT Fly-Spy (Minidrone) | 4 | 2 | 1 | 0 | 3 | 3 | 2; Realistic Features | SR5 p466,
+MCT-Nissan Roto-drone (Medium) | 4 | 2 | 4 | 4 | 3 | 3 | 3 | SR5 p466,
+MCT-Nissan Roto-drone (Medium) | 4 | 2 | 4 | 4 | 3 | 3 | 3 | SR5 p466,
+Steel Lynx Combat Drone (Large) | 5 | 2 | 6 | 12 | 3 | 3 | N/A | SR5 p466,
+Ares Arms Sentry V (Small) | 4/0 | 1 | 2 | 6 | 3 | 2 | Standard Weapon Mount (Drone) | R5 p130,
+Ares Arms Sentry V (Small) | 4/0 | 1 | 2 | 6 | 3 | 2 | Standard Weapon Mount (Drone) | R5 p130,
+Evo Proletarian (Small) | 4/2 | 1 | 2 | 0 | 2 | 2 | Drone Arm | R5 p132,
+Festo Pigeon 2.0 (Minidrone) | 4 | 1 | 1 | 0 | 2 | 2 | 1; Realistic Features (Drone) | R5 p129
+
+### Vehicles
+
+Name | Handling | Accel | Body | Armor | Pilot | Sensor | Mods | Ref
+-----|----------|-------|------|-------|-------|--------|-----|--
+GMC Armadillo | 3/4 | 2 | 13 | 10 | 1 | 2 | N/A | R5 p54
+			
