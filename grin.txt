@@ -4,30 +4,27 @@ Shadowrun 5th Edition Character Generator
 Theme
 
 Priority Table
-Priority	Metatype	Attributes	Magic/Resonance	Skills	Resources
-A	
+Priority			
+A Resources	
 
 
 
-B	
-
-
-
-
-
-C	
+B Skills		
 
 
 
 
 
-D	
+C Metatype	
 
 
-E	
 
-Export.reddit
-×
+
+
+D Attributes	
+
+
+E Magic/Resonance		
 
 
 # [Character Name] – [Player Name]
