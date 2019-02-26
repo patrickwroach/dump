@@ -1,0 +1,119 @@
+@import "reset-css.css";
+@import "color-library.css";
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.25em;
+}
+h4 {
+  font-size: 1.15em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  line-height: 1.5em;
+}
+a:hover {
+  cursor: pointer;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  min-width: 320px;
+}
+body {
+  height: 100vh;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content-container .content {
+  align-self: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+.content-container .content.half-width {
+  width: calc(1000px/2);
+}
+.content-container .content.third-width {
+  width: calc(1000px/3);
+}
+.content-container .content.quarter-width {
+  width: calc(1000px/4);
+}
+.content-container .content.grid {
+  display: grid;
+}
+.content-container .content.grid.two-block-wide {
+  grid-template-columns: repeat(2, 50%);
+}
+.content-container .content.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.content-container .content.columns {
+  display: table;
+}
+.content-container .content.columns .section {
+  display: table-cell;
+}
+.content-container .content.vertically-centered {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+}
+.content-container .content.horizontally-centered {
+  display: flex;
+  justify-content: center;
+}
+.content-container .content.top-aligned .section {
+  vertical-align: top;
+}
+.content-container .content .section.centered-text {
+  text-align: center;
+}
+.content-container.full-page-height {
+  flex: 1 0 auto;
+}
+.content-container.full-page-height.vertically-centered {
+  align-items: center;
+  justify-content: center;
+}
+.table {
+  display: table;
+}
+.table .row {
+  display: table-row;
+}
+.table .row .cell {
+  display: table-cell;
+}
+@media print {
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=pr-template.css.map */

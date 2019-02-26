@@ -1,0 +1,168 @@
+@import "reset-css.css";
+@import "color-library.css";
+
+
+//Template Specific Resets
+//Font and Text
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em
+}
+
+h4 {
+  font-size: 1.15em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  line-height: 1.5em;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+// Standard Structural Elements
+
+$navigation-height: 75px;
+$footer-height: 60px;
+$smallest-Screen: 320px;
+$standard-content-width: 1000px;
+
+
+
+html,
+body {
+  width: 100%;
+  height:100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  min-width: 320px;
+
+}
+
+body{
+  height:100vh;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content-container {
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  .content {
+    align-self: center;
+    width: $standard-content-width;
+    margin: 0 auto;
+  
+    &.half-width{
+      width:#{"calc(${standard-content-width}/2)"};
+    }
+    &.third-width{
+      width:#{"calc(${standard-content-width}/3)"};
+    }
+    &.quarter-width{
+      width:#{"calc(${standard-content-width}/4)"};
+    }
+
+    //Content Layout classes
+    &.grid {
+      display: grid;
+
+      &.two-block-wide {
+        grid-template-columns: repeat(2, 50%);
+
+      
+      }
+    }
+    &.flex-grid{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+    &.columns {
+      display: table;
+
+      .section {
+        display: table-cell;
+      }
+    }
+
+    &.vertically-centered {
+      display: flex;
+      align-items:center;
+      padding-top:0;
+
+    }
+    &.horizontally-centered {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    &.top-aligned {
+      .section {
+        vertical-align: top;
+      }
+    }
+
+    .section {
+      &.centered-text {
+        text-align: center;
+      }
+
+
+    }
+  }
+  &.full-page-height{
+    flex: 1 0 auto;
+
+    &.vertically-centered{
+      align-items: center;
+      justify-content: center;
+
+
+    }
+  }
+
+}
+
+.table{
+  display:table;
+  .row{
+    display:table-row;
+    .cell{
+      display: table-cell;
+    }
+  }
+}
+
+
+//Print Settings
+
+@media print
+{
+  .no-print, .no-print *
+  {
+    display: none !important;
+  }
+}
